@@ -37,7 +37,7 @@ function Abonement(){
                                     <h3 className="card-title text-primary">Abonnement Basique</h3>
                                     <p className="card-text">Accès aux fonctionnalités de base, idéal pour les débutants.</p>
                                     <h4 className="text-success">5 000 FCFA / mois</h4>
-                                    <button className="btn btn-outline-primary">S'abonner</button>
+                                    <button className="btn btn-outline-primary">En savoir plus</button>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ function Abonement(){
                                     <h3 className="card-title text-primary">Abonnement Standard</h3>
                                     <p className="card-text">Fonctionnalités supplémentaires pour une meilleure expérience.</p>
                                     <h4 className="text-success">10 000 FCFA / mois</h4>
-                                    <button className="btn btn-outline-primary">S'abonner</button>
+                                    <button className="btn btn-outline-primary">En savoir plus</button>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ function Abonement(){
                                     <h3 className="card-title text-primary">Abonnement Premium</h3>
                                     <p className="card-text">Accès illimité à toutes les fonctionnalités et support prioritaire.</p>
                                     <h4 className="text-success">20 000 FCFA / mois</h4>
-                                    <button className="btn btn-outline-primary">S'abonner</button>
+                                    <button className="btn btn-outline-primary">En savoir plus</button>
                                 </div>
                             </div>
                         </div>

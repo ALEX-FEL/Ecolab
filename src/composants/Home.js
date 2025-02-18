@@ -95,62 +95,62 @@ function Home() {
 
 
         {/* <!-- Nos services Start --> */}
-        <div className="container" style={{marginTop: '-10%'}}>
-            <div className="container-fluid pt-5 mb-3">
-                <div className="container">
-                    <div className="section-title">
-                        <h4 className="m-0 text-uppercase font-weight-bold">Nos services</h4>
-                    </div>
-                    <div className="owl-carousel news-carousel carousel-item-4 position-relative">
-                        {/* <!-- Service 1 --> */}
-                        <div className="position-relative overflow-hidden" style={{height: '300px'}}>
-                            <img className="img-fluid h-100" src="assets/assets/img/ego13.jpeg" style={{objectFit: 'cover'}}/>
-                            <div className="overlay d-flex flex-column justify-content-center  p-3">
-                                <h5 className="text-white font-weight-bold">Visite Virtuelle 237</h5>
-                                <p className="text-white">Explorez des boutiques en ligne via des visites virtuelles et commandez vos produits ou services facilement.</p>
-                                <a className="btn btn-primary mt-2 btns" href="#">En savoir plus</a>
+        <div className="container j-5" style={{marginTop: '-10%'}}>
+                            <div className="container-fluid pt-5 mb-3">
+                                <div className="container">
+                                    <div className="section-title">
+                                        <h4 className="m-0 text-uppercase font-weight-bold">Nos services</h4>
+                                    </div>
+                                    <div className="owl-carousel news-carousel carousel-item-4 position-relative">
+                                        {/* <!-- Service 1 --> */}
+                                        <div className="position-relative overflow-hidden" style={{height: '300px'}}>
+                                            <img className="img-fluid h-100" src="assets/img/ego13.jpeg" style={{objectFit: 'cover'}}/>
+                                            <div className="overlay d-flex flex-column justify-content-center  p-3">
+                                                <h5 className="text-white font-weight-bold">Visite Virtuelle 237</h5>
+                                                <p className="text-white">Explorez des boutiques en ligne via des visites virtuelles et commandez vos produits ou services facilement.</p>
+                                                <a className="btn btn-primary mt-2 btns" href="/id_service">En savoir plus</a>
+                                            </div>
+                                        </div>
+                                        {/* <!-- Service 2 --> */}
+                                        <div className="position-relative overflow-hidden" style={{height: '300px'}}>
+                                            <img className="img-fluid h-100" src="assets/img/ego14.jpeg" style={{objectFit: 'cover'}}/>
+                                            <div className="overlay d-flex flex-column justify-content-center  p-3">
+                                                <h5 className="text-white font-weight-bold">EcoVirtual Lab</h5>
+                                                <p className="text-white">Nos laboratoires virtuels permettent aux élèves de réaliser des travaux pratiques en sciences dans un environnement sûr et immersif.</p>
+                                                <a className="btn btn-primary mt-2 btns" href="/id_service">En savoir plus</a>
+                                            </div>
+                                        </div>
+                                        {/* <!-- Service 3 --> */}
+                                        <div className="position-relative overflow-hidden" style={{height: '300px'}}>
+                                            <img className="img-fluid h-100" src="assets/img/ego12.jpeg" style={{objectFit: 'cover'}}/>
+                                            <div className="overlay d-flex flex-column justify-content-center  p-3">
+                                                <h5 className="text-white font-weight-bold">Eco Game Zone</h5>
+                                                <p className="text-white">Venez vous détendre dans nos salles de jeux vidéo modernes et confortables.</p>
+                                                <a className="btn btn-primary mt-2 btns" href="/id_service">En savoir plus</a>
+                                            </div>
+                                        </div>
+                                        {/* <!-- Service 4 --> */}
+                                        <div className="position-relative overflow-hidden" style={{height: '300px'}}>
+                                            <img className="img-fluid h-100" src="assets/img/ego14.jpeg" style={{objectFit: 'cover'}}/>
+                                            <div className="overlay d-flex flex-column justify-content-center  p-3">
+                                                <h5 className="text-white font-weight-bold">Développement de jeux, d’applications et de logiciels</h5>
+                                                <p className="text-white">Nous concevons des sites, applications et logiciels personnalisés pour répondre à vos besoins.</p>
+                                                <a className="btn btn-primary mt-2 btns" href="/id_service">En savoir plus</a>
+                                            </div>
+                                        </div>
+                                        {/* <!-- Service 5 --> */}
+                                        <div className="position-relative overflow-hidden" style={{height: '300px'}}>
+                                            <img className="img-fluid h-100" src="assets/img/ego11.jpeg" style={{objectFit: 'cover'}}/>
+                                            <div className="overlay d-flex flex-column justify-content-center  p-3">
+                                                <h5 className="text-white font-weight-bold">Formations</h5>
+                                                <p className="text-white">Apprenez à développer des applications, jeux vidéo et logiciels VR/AR avec nos formations pratiques.</p>
+                                                <a className="btn btn-primary mt-2 btns" href="/id_service">En savoir plus</a>
+                                            </div>
+                                        </div>
+                                        {/* <!-- Add more services as needed --> */}
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        {/* <!-- Service 2 --> */}
-                        <div className="position-relative overflow-hidden" style={{height: '300px'}}>
-                            <img className="img-fluid h-100" src="assets/img/ego14.jpeg" style={{objectFit: 'cover'}}/>
-                            <div className="overlay d-flex flex-column justify-content-center  p-3">
-                                <h5 className="text-white font-weight-bold">EcoVirtual Lab</h5>
-                                <p className="text-white">Nos laboratoires virtuels permettent aux élèves de réaliser des travaux pratiques en sciences dans un environnement sûr et immersif.</p>
-                                <a className="btn btn-primary mt-2 btns" href="#">En savoir plus</a>
-                            </div>
-                        </div>
-                        {/* <!-- Service 3 --> */}
-                        <div className="position-relative overflow-hidden" style={{height: '300px'}}>
-                            <img className="img-fluid h-100" src="assets/img/ego12.jpeg" style={{objectFit: 'cover'}}/>
-                            <div className="overlay d-flex flex-column justify-content-center  p-3">
-                                <h5 className="text-white font-weight-bold">Eco Game Zone</h5>
-                                <p className="text-white">Venez vous détendre dans nos salles de jeux vidéo modernes et confortables.</p>
-                                <a className="btn btn-primary mt-2 btns" href="#">En savoir plus</a>
-                            </div>
-                        </div>
-                        {/* <!-- Service 4 --> */}
-                        <div className="position-relative overflow-hidden" style={{height: '300px'}}>
-                            <img className="img-fluid h-100" src="assets/img/ego14.jpeg" style={{objectFit: 'cover'}}/>
-                            <div className="overlay d-flex flex-column justify-content-center  p-3">
-                                <h5 className="text-white font-weight-bold">Développement de jeux, d’applications et de logiciels</h5>
-                                <p className="text-white">Nous concevons des sites, applications et logiciels personnalisés pour répondre à vos besoins.</p>
-                                <a className="btn btn-primary mt-2 btns" href="#">En savoir plus</a>
-                            </div>
-                        </div>
-                        {/* <!-- Service 5 --> */}
-                        <div className="position-relative overflow-hidden" style={{height: '300px'}}>
-                            <img className="img-fluid h-100" src="assets/img/ego11.jpeg" style={{objectFit: 'cover'}}/>
-                            <div className="overlay d-flex flex-column justify-content-center  p-3">
-                                <h5 className="text-white font-weight-bold">Formations</h5>
-                                <p className="text-white">Apprenez à développer des applications, jeux vidéo et logiciels VR/AR avec nos formations pratiques.</p>
-                                <a className="btn btn-primary mt-2 btns" href="#">En savoir plus</a>
-                            </div>
-                        </div>
-                        {/* <!-- Add more services as needed --> */}
-                    </div>
-                </div>
-            </div>
         </div>
         {/* <!-- services End -->  */}
 
@@ -172,8 +172,8 @@ function Home() {
                             allowfullscreen>
                         </iframe>
                         <div className="carousel-caption">
-                            <h5 className="pro">Projet 1 : Vidéo Promotionnelle</h5>
-                            <p>Création d'une vidéo publicitaire pour un client.</p>
+                            <h5 className="pro">les labos Virtuels une réalisation au Cameroun</h5>
+                            {/* <p>Création d'une vidéo publicitaire pour un client.</p> */}
                         </div>
                     </div>
             
@@ -188,8 +188,8 @@ function Home() {
                             allowfullscreen>
                         </iframe>
                         <div className="carousel-caption">
-                            <h5 className="pro">Projet 2 : Vidéo Promotionnelle</h5>
-                            <p>Création d'une vidéo publicitaire pour un client.</p>
+                            <h5 className="pro">Formation/Emploi en Réalite Virtuelle</h5>
+                            {/* <p>Création d'une vidéo publicitaire pour un client.</p> */}
                         </div>
                     </div>
             
@@ -204,8 +204,8 @@ function Home() {
                             allowfullscreen>
                         </iframe>
                         <div className="carousel-caption">
-                            <h5 className="pro">Projet 3 : Vidéo Promotionnelle</h5>
-                            <p>Création d'une vidéo publicitaire pour un client.</p>
+                            <h5 className="pro">EcoVirtual Lab : Mesure de l'enthalpie dans un labo virtuel</h5>
+                            {/* <p>Création d'une vidéo publicitaire pour un client.</p> */}
                         </div>
                     </div>
                 </div>
@@ -273,45 +273,45 @@ function Home() {
                 <div className="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div className="testimonial-item rounded p-4">
                         <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>Grâce à vos services, j'ai pu augmenter ma visibilité en ligne et attirer de nouveaux clients. L'équipe est toujours à l'écoute et très professionnelle.</p>
                         <div className="d-flex align-items-center">
                             <img className="img-fluid flex-shrink-0 rounded-circle" src="assets/img/testimonial-1.jpg"/>
                             <div className="ps-3">
-                                <h6 className="mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 className="mb-1">Marie Dupont</h6>
+                                <small>Graphiste</small>
                             </div>
                         </div>
                     </div>
                     <div className="testimonial-item rounded p-4">
                         <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>Les conseils que j'ai reçus ont transformé mon entreprise. Je recommande vivement vos services à tous les entrepreneurs en quête de croissance.</p>
                         <div className="d-flex align-items-center">
                             <img className="img-fluid flex-shrink-0 rounded-circle" src="assets/img/testimonial-2.jpg"/>
                             <div className="ps-3">
-                                <h6 className="mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 className="mb-1">Jean Martin</h6>
+                                <small>Entrepreneur</small>
                             </div>
                         </div>
                     </div>
                     <div className="testimonial-item rounded p-4">
                         <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>Un accompagnement sur mesure et des résultats visibles en peu de temps. Je suis ravie de ma collaboration avec votre équipe !</p>
                         <div className="d-flex align-items-center">
                             <img className="img-fluid flex-shrink-0 rounded-circle" src="assets/img/testimonial-3.jpg"/>
                             <div className="ps-3">
-                                <h6 className="mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 className="mb-1">Sophie Durand</h6>
+                                <small>Consultante en Marketing</small>
                             </div>
                         </div>
                     </div>
                     <div className="testimonial-item rounded p-4">
                         <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>'ai apprécié le professionnalisme et la créativité de l'équipe. Mes photos sont désormais mises en valeur comme jamais !"</p>
                         <div className="d-flex align-items-center">
                             <img className="img-fluid flex-shrink-0 rounded-circle" src="assets/img/testimonial-4.jpg"/>
                             <div className="ps-3">
-                                <h6 className="mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 className="mb-1">Clara Moreau</h6>
+                                <small>Photographe</small>
                             </div>
                         </div>
                     </div>
