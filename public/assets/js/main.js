@@ -42,8 +42,44 @@
 
     
     
+    // ecoCarousel slide 
+    document.addEventListener("DOMContentLoaded", function () {
+        function updateCarouselSettings() {
+            let interval;
+            let carousel = document.querySelector("#ecoCarousel");
     
-
+            if (!carousel) return;
+    
+            // Suppression des classes de transition avant d'ajouter la bonne
+            carousel.classList.remove("carousel-fade", "carousel-zoom", "carousel-rotate");
+    
+            // Définition de la vitesse et du type de transition
+            if (window.innerWidth < 576) {
+                // Mobile - Zoom
+                interval = 2000;
+                carousel.classList.add("carousel-zoom");
+            } else if (window.innerWidth < 992) {
+                // Tablette - Rotation
+                interval = 3000;
+                carousel.classList.add("carousel-rotate");
+            } else {
+                // PC - Glisser (par défaut Bootstrap)
+                interval = 5000;
+            }
+    
+            // Reconfigurer le carrousel Bootstrap
+            let bsCarousel = new bootstrap.Carousel(carousel, {
+                interval: interval,
+                ride: "carousel"
+            });
+        }
+    
+        updateCarouselSettings(); // Appliquer les paramètres au chargement
+        window.addEventListener("resize", updateCarouselSettings); // Mettre à jour lors du redimensionnement
+    });
+    
+    
+    
 
     // Client carousel
     $(".client-carousel").owlCarousel({
@@ -102,38 +138,7 @@
     
     
 
-    // Carousel item 4
-    $(document).ready(function () {
-        $(".carousel-item-4").owlCarousel({
-            autoplay: true,
-            smartSpeed: 1000,
-            margin: 30,
-            dots: false,
-            loop: true,
-            nav: true,
-            navText: [
-                '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-                '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-            ],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                576: {
-                    items: 1
-                },
-                768: {
-                    items: 2
-                },
-                992: {
-                    items: 3
-                },
-                1200: {
-                    items: 4
-                }
-            }
-        });
-    });
+    
 
 
     // Testimonials carousel

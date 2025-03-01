@@ -17,13 +17,13 @@ function Header() {
                         <a href="/" className="nav-item nav-link active">Accueil</a>
                         <a href="/about" className="nav-item nav-link">À propos</a>
                         <div className="nav-item dropdown">
-                            <Link to="/service" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</Link>
+                            <a href="/service" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
                             <div className="dropdown-menu m-0">
                                 <a href="/id_service" className="dropdown-item">EcoVirtual Lab (Labos Virtuels)</a>
-                                <a href="/id_service" className="dropdown-item">Visite Virtuelle 237</a>
-                                <a href="/id_service" className="dropdown-item">Eco Game zone</a>
-                                <a href="/id_service" className="dropdown-item">Développement de jeux, d’applications, logiciels</a>
-                                <a href="/id_service" className="dropdown-item">Formations</a>
+                                <a href="/visite_virtuelle" className="dropdown-item">Visite Virtuelle 237</a>
+                                <a href="/eco_Game_zone" className="dropdown-item">Eco Game zone</a>
+                                <a href="/dev_jeux_app" className="dropdown-item">Développement de jeux, d’applications, logiciels</a>
+                                <a href="/formations" className="dropdown-item">Formations</a>
                             </div>
                         </div>
                         <div className="nav-item dropdown">

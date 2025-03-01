@@ -532,7 +532,7 @@
 
 
 
-
+/* Responsive sur pc */
 .contact-container {
     display: flex; /* Aligne les éléments en ligne */
     align-items: center; /* Aligne verticalement les éléments */
@@ -579,6 +579,40 @@
     text-decoration: underline;
   }
 
+    /* Responsive sur mobile */
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer sur plusieurs lignes si nécessaire */
+    justify-content: center;
+    align-items: center;
+    gap: 1px; /* Espacement entre les éléments */
+    text-align: center;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espacement entre l'icône et le texte */
+    font-size: 16px;
+  }
+  
+  .divider {
+    height: 0px;
+    width: 2px;
+    background-color: #ccc;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column; /* Met les éléments en colonne sur mobile */
+      gap: 15px;
+    }
+    
+    .divider {
+      display: none; /* Cache la barre verticale sur mobile */
+    }
+  }
+  
 
 
 
@@ -817,4 +851,7 @@
 }
 
 
-
+.serv:hover{
+    background-color: #091872;
+    color: #FFFFFF;
+}

@@ -60,7 +60,7 @@ function About() {
                     <div className="container-fluid pt-5 mb-3">
                         <div className="container">
                             <div className="section-title">
-                                <h4 className="m-0 text-uppercase font-weight-bold">Nos services</h4>
+                                <h4 className="m-0 text-uppercase font-weight-bold"><a href="/service" className="serv">Nos services</a></h4>
                             </div>
                             <div className="owl-carousel news-carousel carousel-item-4 position-relative">
                                 {/* <!-- Service 1 --> */}

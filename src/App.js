@@ -7,6 +7,7 @@ import Service from "./composants/service";
 import About from "./composants/about";
 import Detail_services from "./composants/services/detali";
 import Detail_abonmt from "./composants/abonnements/detail";
+import Visite_virtuelle from "./composants/services/visite_virtuelle";
 
 // Import des composantscontact
 
@@ -23,11 +24,13 @@ const App = () => {
           <Route path="/id_service" element={<Detail_services />} /> 
           <Route path="/abonement" element={<Abonement />} />
           <Route path="/id_abonement" element={<Detail_abonmt />} />
+          <Route path="/visite_virtuelle" element={<Visite_virtuelle />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
   );
 };
+
 
 export default App;
