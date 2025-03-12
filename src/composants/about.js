@@ -69,7 +69,7 @@ function About() {
                                     <div className="overlay d-flex flex-column justify-content-center  p-3">
                                         <h5 className="text-white font-weight-bold">Visite Virtuelle 237</h5>
                                         <p className="text-white">Explorez des boutiques en ligne via des visites virtuelles et commandez vos produits ou services facilement.</p>
-                                        <a className="btn btn-primary mt-2 btns" href="#">En savoir plus</a>
+                                        <a className="btn btn-primary mt-2 btns" href="/visite_virtuelle">En savoir plus</a>
                                     </div>
                                 </div>
                                 {/* <!-- Service 2 --> */}

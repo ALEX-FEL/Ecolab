@@ -67,7 +67,7 @@ function Home() {
                                     <a href="#" className="btn btn-light rounded-pill py-3 px-5 mt-2">En savoir plus</a>
                                 </div>
                                 <div className="col-lg-6 text-center text-lg-start">
-                                    <img className="img-fluid animated zoomIn" src="assets/img/hero.png" alt=""/>
+                                    <img className="img-fluid animated zoomIn" src="assets/img/1716445733964.png" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -126,6 +126,7 @@ function Home() {
                 </button>
             </div>
 
+
             
         </div>
         {/* <!-- Navbar & Hero End --> */}
@@ -148,7 +149,7 @@ function Home() {
                             <div className="overlay d-flex flex-column justify-content-center  p-3">
                                 <h5 className="text-white font-weight-bold">Visite Virtuelle 237</h5>
                                 <p className="text-white">Explorez des boutiques en ligne via des visites virtuelles et commandez vos produits ou services facilement.</p>
-                                <a className="btn btn-primary mt-2 btns" href="/id_service">En savoir plus</a>
+                                <a className="btn btn-primary mt-2 btns" href="/visite_virtuelle">En savoir plus</a>
                             </div>
                         </div>
                         {/* <!-- Service 2 --> */}

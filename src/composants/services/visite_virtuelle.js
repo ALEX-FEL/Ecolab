@@ -15,13 +15,26 @@ function Visite_virtuelle(){
 
             <div className="container-xxl py-6">
                 <div className="container">
-                    <div className="row g-5 align-items-center">
+                    {/* <div className="row g-5 align-items-center ">
                         <div className=" text-center ">
                             <h1 className="mb-4 animated zoomIn">Visite Virtuelle 237</h1>
-                            <p class="fw-500  pano-text">Créez, partagez, et découvrez</p>
-                            <a href="#" className="btn btn-light rounded-pill py-3 px-5 mt-2"><b style={{color: 'inherit'}} >Commencez</b> - C'est gratuit!</a>
+                            <p class="fw-500  pano-text ">Créez, partagez, et découvrez</p>
+                            <a href="#" className="btn btn-light rounded-pill py-3 px-5 mt-2 dancing-button"><b style={{color: 'inherit'}} >Commencez</b> - C'est gratuit!</a>
+                        </div>
+                    </div> */}
+                    <div className="position-relative overflow-hidden">
+
+                        <div className="row g-5 align-items-center text-center">
+                            <div>
+                                <h1 className="mb-4 animated zoomIn" style={{ fontSize: '69px'}}>Visite Virtuelle 237</h1>
+                                <p className="fw-500 pano-text" style={{ fontSize: '39px'}} >Créez, partagez, et découvrez</p>
+                                <a href="#" className="btn btn-light rounded-pill py-3 px-5 mt-2 dancing-button">
+                                    <b style={{ color: 'inherit', fontSize: '30px' }}>Commencez</b> - C'est gratuit!
+                                </a>
+                            </div>
                         </div>
                     </div>
+
                     <div className="row g-5 align-items-center">
                         <div className="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
                             <img className="img-fluid" src="assets/img/imgeco/1.png"/>
@@ -45,7 +58,7 @@ function Visite_virtuelle(){
                     </div>
 
                     <div className="row g-5 align-items-center">
-                        <div class="section-top-border- pt-30 pb-30" style={{background: 'white'}}>
+                        <div class="section-top-border- pt-30 pb-30  dop">
                             <div class="container">
                     
                                 <div class="row d-flex justify-content-center">
@@ -138,7 +151,7 @@ function Visite_virtuelle(){
                     </div>
                     
                     <div className="row g-5 align-items-center">
-                        <div class="section-top-border- pt-30 pb-30" >
+                        <div class="section-top-border- pt-30 pb-30 dop" >
                             <div class="container">
                     
                                 <div class="row d-flex justify-content-center">
@@ -212,7 +225,7 @@ function Visite_virtuelle(){
                     </div>
 
                     <div className="row g-5 align-items-center">
-                        <div class="section-top-border- pt-30 pb-30" >
+                        <div class="section-top-border- pt-30 pb-30 dop" >
                             <div class="container">
                     
                                 <div class="row d-flex justify-content-center">
@@ -287,7 +300,7 @@ function Visite_virtuelle(){
                     </div>
                     
                     <div className="row g-5 align-items-center">
-                        <div class="section-top-border- pt-30 pb-30" >
+                        <div class="section-top-border- pt-30 pb-30 dop" >
                             <div class="container">
                     
                                 <div class="row d-flex justify-content-center">
@@ -448,7 +461,7 @@ function Visite_virtuelle(){
                     </div>
                     
                     <div className="row g-5 align-items-center">
-                        <div class="section-top-border- pt-30 pb-30" >
+                        <div class="section-top-border- pt-30 pb-30 dop" >
                             <div class="container">
                     
                                 <div class="row d-flex justify-content-center">
