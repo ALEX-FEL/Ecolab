@@ -81,7 +81,7 @@ function Home() {
                                     <a href="#" className="btn btn-light rounded-pill py-3 px-5 mt-2">Découvrir EcoVirtual Lab</a>
                                 </div>
                                 <div className="col-lg-6 text-center text-lg-start">
-                                    <img className="img-fluid animated zoomIn" src="assets/img/hero.png" alt=""/>
+                                    <img className="img-fluid animated zoomIn" src="assets/img/concept-technologie-metaverse-gens-plats-lunettes-realite-virtuelle-robot-intelligence-artificielle-au-bureau_88138-1707.jpg" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +95,7 @@ function Home() {
                                     <a href="#" className="btn btn-light rounded-pill py-3 px-5 mt-2">Explorer les laboratoires</a>
                                 </div>
                                 <div className="col-lg-6 text-center text-lg-start">
-                                    <img className="img-fluid animated zoomIn" src="assets/img/hero.png" alt=""/>
+                                    <img className="img-fluid animated zoomIn" src="assets/img/eco1.png" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ function Home() {
                                     <a href="#" className="btn btn-light rounded-pill py-3 px-5 mt-2">Commencer maintenant</a>
                                 </div>
                                 <div className="col-lg-6 text-center text-lg-start">
-                                    <img className="img-fluid animated zoomIn" src="assets/img/hero.png" alt=""/>
+                                    <img className="img-fluid animated zoomIn" src="assets/img/visite-virtuelle-a-partir-dun-plan-1-1024x576.webp" alt=""/>
                                 </div>
                             </div>
                         </div>
