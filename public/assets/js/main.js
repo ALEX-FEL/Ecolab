@@ -170,6 +170,36 @@
             }
         });
     });
+    
+    // visite 237 carousel
+    $(document).ready(function () {
+        var owl = $(".image-carousel");
+    
+        owl.owlCarousel({
+            autoplay: true,
+            autoplayHoverPause: true,
+            smartSpeed: 1000,
+            loop: true,
+            margin: 30,
+            dots: false, // On désactive les dots
+            nav: false, // On désactive la navigation standard d'Owl
+            responsive: {
+                0: { items: 1 },
+                768: { items: 2 },
+                1024: { items: 2 }
+            }
+        });
+    
+        // Boutons de navigation personnalisés
+        $("#prev-slide").click(function () {
+            owl.trigger("prev.owl.carousel");
+        });
+    
+        $("#next-slide").click(function () {
+            owl.trigger("next.owl.carousel");
+        });
+    });
+    
 
 
     // carousel produit

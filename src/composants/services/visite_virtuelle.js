@@ -5,6 +5,8 @@ import Testimonial from "../Elements/testimonial";
 
 
 
+
+
 function Visite_virtuelle(){
     return(
         <div className="container-xxl bg-white p-0">
@@ -15,13 +17,6 @@ function Visite_virtuelle(){
 
             <div className="container-xxl py-6">
                 <div className="container">
-                    {/* <div className="row g-5 align-items-center ">
-                        <div className=" text-center ">
-                            <h1 className="mb-4 animated zoomIn">Visite Virtuelle 237</h1>
-                            <p class="fw-500  pano-text ">Créez, partagez, et découvrez</p>
-                            <a href="#" className="btn btn-light rounded-pill py-3 px-5 mt-2 dancing-button"><b style={{color: 'inherit'}} >Commencez</b> - C'est gratuit!</a>
-                        </div>
-                    </div> */}
                     <div className="position-relative overflow-hidden">
 
                         <div className="row g-5 align-items-center text-center">
@@ -73,84 +68,50 @@ function Visite_virtuelle(){
                     Achetez ou louez votre prochaine propriété, bateau, voiture, avion et location saisonnière. Découvrez les musées, les vues aériennes, l&#39;art, les créations 3D, les chantiers en construction et les salons. Trouvez tous les commerces près de chez vous: Boutiques, écoles, showrooms, bureaux et lieux de détente.</p>
                                                     </div>
                     
-                                                    <div class="text-center">
-                                                        <div class="container my-4">
-                                                            {/* <!-- Swiper Container --> */}
-                                                            <div class="swiper mySwiper">
-                                                                <div class="swiper-wrapper">
-                                                                    
-                                                                    {/* <!-- Slide 1 --> */}
-                                                                    <div class="swiper-slide">
-                                                                        <div class="grid-container">
-                                                                            <div class="grid-item">
-                                                                                <a href="https://site1.com" target="_blank">
-                                                                                    <img src="assets/img/imgeco/1.jpeg" alt="Image 1"/>
-                                                                                    <div class="grid-overlay">Titre 1</div>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="grid-item">
-                                                                                <a href="https://site2.com" target="_blank">
-                                                                                    <img src="assets/img/imgeco/2.jpeg" alt="Image 2"/>
-                                                                                    <div class="grid-overlay">Titre 2</div>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="grid-item">
-                                                                                <a href="https://site3.com" target="_blank">
-                                                                                    <img src="assets/img/imgeco/3.jpeg" alt="Image 3"/>
-                                                                                    <div class="grid-overlay">Titre 3</div>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="grid-item">
-                                                                                <a href="https://site4.com" target="_blank">
-                                                                                    <img src="assets/img/imgeco/4.jpeg" alt="Image 4"/>
-                                                                                    <div class="grid-overlay">Titre 4</div>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
+                                                    <div class="container my-5 text-center">
+                                                        
+                                                        <div class="owl-carousel image-carousel">
+                                                            <div class="item">
+                                                                <a href="">
+                                                                    <div class="image-container ">
+                                                                        <img src="assets/img/img_20210713_094129-1030x774.jpg" alt="Salle de jeux vidéos"/>
+                                                                        <div class="overlay-text">Visite Virtuelle : Salle de jeux vidéos</div>
                                                                     </div>
-
-                                                                    {/* <!-- Slide 2 --> */}
-                                                                    <div class="swiper-slide">
-                                                                        <div class="grid-container">
-                                                                            <div class="grid-item">
-                                                                                <a href="https://site5.com" target="_blank">
-                                                                                    <img src="assets/img/imgeco/5.jpeg" alt="Image 5"/>
-                                                                                    <div class="grid-overlay">Titre 5</div>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="grid-item">
-                                                                                <a href="https://site6.com" target="_blank">
-                                                                                    <img src="assets/img/imgeco/6.jpeg" alt="Image 6"/>
-                                                                                    <div class="grid-overlay">Titre 6</div>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="grid-item">
-                                                                                <a href="https://site7.com" target="_blank">
-                                                                                    <img src="assets/img/imgeco/7.jpeg" alt="Image 7"/>
-                                                                                    <div class="grid-overlay">Titre 7</div>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="grid-item">
-                                                                                <a href="https://site8.com" target="_blank">
-                                                                                    <img src="assets/img/imgeco/8.jpeg" alt="Image 8"/>
-                                                                                    <div class="grid-overlay">Titre 8</div>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="">
+                                                                    <div class="image-container wow zoomIn">
+                                                                        <img src="assets/img/visitevirtuelle2.jpg" alt="Musée National"/>
+                                                                        <div class="overlay-text">Visite Virtuelle : Musée National </div>
                                                                     </div>
-
-                                                                </div>
-                                                                
-                                                                {/* <!-- Navigation boutons --> */}
-                                                                <div class="swiper-button-next"></div>
-                                                                <div class="swiper-button-prev"></div>
-                                                                
-                                                                {/* <!-- Pagination --> */}
-                                                                <div class="swiper-pagination"></div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="">
+                                                                    <div class="image-container">
+                                                                        <img src="assets/img/vcarousel_wide_1024x768_HYDRO-DELUXE-SUITE-06162023-131405.jpg" alt="Chambre d'hôtel"/>
+                                                                        <div class="overlay-text"> Visite Virtuelle : Chambre d'hôtel</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="">
+                                                                    <div class="image-container">
+                                                                        <img src="assets/img/construction_chantier_maison.webp" alt="Chantier en construction"/>
+                                                                        <div class="overlay-text">Visite Virtuelle : Chantier en construction</div>
+                                                                    </div>
+                                                                </a>
                                                             </div>
                                                         </div>
-
-
+                                                        <div id="custom-nav">
+                                                            <button id="prev-slide" class="btn btn-dark me-2">
+                                                                <i class="bi bi-chevron-left "></i>
+                                                            </button>
+                                                            <button id="next-slide" class="btn btn-dark">
+                                                                <i class="bi bi-chevron-right"></i>
+                                                            </button>
+                                                        </div>
                                                     </div>
                     
                     
@@ -160,7 +121,7 @@ function Visite_virtuelle(){
                                                             Explorez &amp; recherchez
                                                         </button>
                                                         </a>
-                                                    </div>
+                                                     </div>
                                                                                 </div>
                     
                                             </div>
