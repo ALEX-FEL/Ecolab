@@ -184,9 +184,21 @@
             dots: false, // On désactive les dots
             nav: false, // On désactive la navigation standard d'Owl
             responsive: {
-                0: { items: 1 },
-                768: { items: 2 },
-                1024: { items: 2 }
+                0: {
+                    items: 1
+                },
+                576: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                992: {
+                    items: 2
+                },
+                1200: {
+                    items: 2
+                }
             }
         });
     

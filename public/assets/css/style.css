@@ -532,86 +532,86 @@
 
 
 
-/* Responsive sur pc */
 .contact-container {
-    display: flex; /* Aligne les éléments en ligne */
-    align-items: center; /* Aligne verticalement les éléments */
-    justify-content: center; /* Centre horizontalement la div */
-    width: 80%; /* Largeur totale de la div */
-    padding: 63px; /* Espacement interne */
-    margin: -69px auto; /* Centrage de la div */
-    border-radius: 12px; /* Bordures arrondies */
-    background-color: #f9f9f9; /* Couleur de fond */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap; /* Empêche le passage à la ligne sur grand écran */
+    /* width: 80%;
+    max-width: 900px;
+    padding: 40px;
+    margin: -40px auto;
+    border-radius: 12px;
+    background-color: #f9f9f9; */
+    width: 80%;
+    padding: 63px;
+    margin: -69px auto;
+    border-radius: 12px;
+    background-color: #f9f9f9;
     box-shadow: 11px -14px 6px rgba(0, 0, 0, 0.1);
-    /* Ombre */
-    font-family: Arial, sans-serif; /* Police */
+    font-family: Arial, sans-serif;
     position: relative;
     z-index: 1000;
-  }
-
-  .contact-item {
-    display: flex; /* Aligne l'icône et le texte sur la même ligne */
-    align-items: center; /* Centre verticalement */
-    padding: 30px 97px; /* Espacement horizontal */
-    color: #333; /* Couleur du texte */
-    font-size: 150%;
-  }
-
-
-  .contact-item i {
-    margin-right: 12px; /* Ajoute un espace entre l'icône et le texte */
-    color: #007BFF; /* Couleur de l'icône */
-    font-size: 18px;
-  }
-
-  .divider {
-    width: 1px; /* Épaisseur de la barre */
-    height: 30px; /* Hauteur de la barre */
-    background-color: #ccc; /* Couleur de la barre */
-  }
-
-  .contact-container a {
-    color: #007BFF; /* Couleur des liens */
-    text-decoration: none;
-  }
-
-  .contact-container a:hover {
-    text-decoration: underline;
-  }
-
-    /* Responsive sur mobile */
-  .contact-container {
-    display: flex;
-    flex-wrap: wrap; /* Permet de passer sur plusieurs lignes si nécessaire */
-    justify-content: center;
-    align-items: center;
-    gap: 1px; /* Espacement entre les éléments */
+    gap: 20px;
     text-align: center;
-  }
-  
-  .contact-item {
+}
+
+/* Élément contact */
+.contact-item {
     display: flex;
     align-items: center;
-    gap: 5px; /* Espacement entre l'icône et le texte */
-    font-size: 16px;
-  }
-  
-  .divider {
-    height: 0px;
+    justify-content: center; /* Centre le contenu */
+    gap: 10px;
+    padding: 15px 20px;
+    color: #333;
+    font-size: clamp(14px, 2vw, 22px); /* Ajuste la taille selon l'écran */
+}
+
+/* Icônes */
+.contact-item i {
+    color: #007BFF;
+    font-size: clamp(16px, 2vw, 24px); /* Ajuste la taille de l'icône */
+}
+
+/* Barre verticale */
+.divider {
     width: 2px;
+    height: 30px;
     background-color: #ccc;
-  }
-  
-  @media (max-width: 768px) {
+}
+
+/* Liens */
+.contact-container a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-container a:hover {
+    text-decoration: underline;
+}
+
+/* ✅ RESPONSIVE : Téléphone (max-width: 768px) */
+@media (max-width: 768px) {
     .contact-container {
-      flex-direction: column; /* Met les éléments en colonne sur mobile */
-      gap: 15px;
+        flex-direction: column; /* Met les éléments en colonne */
+        gap: 15px;
     }
-    
+
+    .contact-item {
+        font-size: clamp(12px, 4vw, 18px); /* Ajustement sur mobile */
+        width: 100%; /* Prend toute la largeur */
+        justify-content: center; /* Centre les éléments */
+    }
+
+    .contact-item i {
+        font-size: clamp(14px, 4vw, 20px); /* Ajustement de l'icône */
+    }
+
     .divider {
-      display: none; /* Cache la barre verticale sur mobile */
+        display: none; /* Supprime la barre verticale sur mobile */
     }
-  }
+}
+
   
 
 
@@ -730,7 +730,7 @@
 }
 
 .g-5{
-    padding-top: 8rem;
+    padding-top: 3rem;
 }
 
 .j-5{
@@ -908,7 +908,7 @@
 
 .image-container {
     width: 100%;
-    height: 270px; /* Ajuste la hauteur selon ton besoin 250*/
+    height: 300px; /* Ajuste la hauteur selon ton besoin 250*/
     display: flex;
     justify-content: center;
     align-items: center;
