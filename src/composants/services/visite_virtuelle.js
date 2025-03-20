@@ -90,7 +90,7 @@ function Visite_virtuelle(){
                                                             <div class="item">
                                                                 <a href="">
                                                                     <div class="image-container">
-                                                                        <img src="assets/img/vcarousel_wide_1024x768_HYDRO-DELUXE-SUITE-06162023-131405.jpg" alt="Chambre d'hôtel"/>
+                                                                        <img src="assets/img/carousel_wide_1024x768_HYDRO-DELUXE-SUITE-06162023-131405.jpg" alt="Chambre d'hôtel"/>
                                                                         <div class="overlay-text"> Visite Virtuelle : Chambre d'hôtel</div>
                                                                     </div>
                                                                 </a>
@@ -180,7 +180,7 @@ function Visite_virtuelle(){
                     
                                                                 <div class="col-12 col-md-6 col-lg-5 text-center my-auto mx-auto ">
                                                 <div class="col-12">
-                                                    <img class="lazyload br-10 w-100" alt="Comment Partager Ou Intégrer Des Visites Virtuelles" data-src="assets/img/imgeco/section_1610555302-1678709324.png"/>
+                                                    <img class="lazyload br-10 w-100" alt="Comment Partager Ou Intégrer Des Visites Virtuelles" src="assets/img/imgeco/𝐋𝐨_𝐌𝐞𝐣𝐨𝐫_𝐝𝐞_𝐀𝐫𝐜𝐚𝐧𝐨.jpeg"/>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-7 " id="s-content" >
@@ -224,7 +224,7 @@ function Visite_virtuelle(){
                     
                                                                 <div class="col-12 col-md-6 col-lg-5 text-center my-auto mx-auto  order-1 order-sm-1 order-md-2 order-last ">
                                                 <div class="col-12">
-                                                    <img class="lazyload br-10 w-100" alt="Boostez Votre Business" data-src="assets/img/imgeco/section_1610555235-1038486870.png"/>
+                                                    <img class="lazyload br-10 w-100" alt="Boostez Votre Business" src="assets/img/imgeco/TIKI Mascot Re-branding.jpeg"/>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-7  order-2 order-sm-2 order-md-1 " id="s-content" >
@@ -297,7 +297,7 @@ function Visite_virtuelle(){
                     
                                                                 <div class="col-12 col-md-6 col-lg-5 text-center my-auto mx-auto ">
                                                 <div class="col-12">
-                                                    <img class="lazyload br-10 w-100" alt="Qu’est-ce Qu’une Visite Virtuelle ?" data-src="assets/img/imgeco/section_1610555340-1515872134.png"/>
+                                                    <img class="lazyload br-10 w-100" alt="Qu’est-ce Qu’une Visite Virtuelle ?" src="assets/img/imgeco/F5nuc6i9.jpeg"/>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-7 " id="s-content" >
@@ -458,7 +458,7 @@ function Visite_virtuelle(){
                     
                                                                 <div class="col-12 col-md-6 col-lg-5 text-center my-auto mx-auto  order-1 order-sm-1 order-md-2 order-last ">
                                                 <div class="col-12">
-                                                    <img class="lazyload br-10 w-100" alt="Ecolab Pro : Pour Aller Plus Loin" data-src="https://assets.Ecolab.com/uploads/homesection/section_1610555375-354707498.png"/>
+                                                    <img class="lazyload br-10 w-100" alt="Ecolab Pro : Pour Aller Plus Loin" src="assets/img/imgeco/section_1610555375-354707498.png"/>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-7  order-2 order-sm-2 order-md-1 " id="s-content" >

@@ -134,15 +134,10 @@
         ]
     });
 
-        
-    
-    
-
-    
 
 
     // Testimonials carousel
-    $(document).ready(function () {
+    setTimeout(function () {
         $(".testimonial-carousel").owlCarousel({
             autoplay: true,
             smartSpeed: 1000,
@@ -155,67 +150,63 @@
                 '<i class="bi bi-chevron-right"></i>'
             ],
             responsive: {
-                0: {
-                    items: 1
-                },
-                576: {
-                    items: 1
-                },
-                768: {
-                    items: 2
-                },
-                992: {
-                    items: 3
-                }
+                0: { items: 1 },
+                576: { items: 1 },
+                768: { items: 2 },
+                992: { items: 3 }
             }
         });
-    });
+    }, 500);
+    
     
     // visite 237 carousel
-    $(document).ready(function () {
-        var owl = $(".image-carousel");
+    $(window).on("load", function () {
+        console.log("✅ DOM complètement chargé !");
     
-        owl.owlCarousel({
-            autoplay: true,
-            autoplayHoverPause: true,
-            smartSpeed: 1000,
-            loop: true,
-            margin: 30,
-            dots: false, // On désactive les dots
-            nav: false, // On désactive la navigation standard d'Owl
-            responsive: {
-                0: {
-                    items: 1
-                },
-                576: {
-                    items: 1
-                },
-                768: {
-                    items: 2
-                },
-                992: {
-                    items: 2
-                },
-                1200: {
-                    items: 2
-                }
+        setTimeout(function () {
+            console.log("Nombre d'éléments après chargement :", $(".image-carousel .item").length);
+    
+            if ($(".image-carousel .item").length > 0) {
+                var owl = $(".image-carousel");
+    
+                owl.owlCarousel({
+                    autoplay: true,
+                    autoplayHoverPause: true,
+                    smartSpeed: 1000,
+                    loop: true,
+                    margin: 30,
+                    dots: false,
+                    nav: false,
+                    responsive: {
+                        0: { items: 1 },
+                        576: { items: 1 },
+                        768: { items: 2 },
+                        992: { items: 2 },
+                        1200: { items: 2 }
+                    }
+                });
+    
+                // Navigation personnalisée
+                $("#prev-slide").click(function () {
+                    owl.trigger("prev.owl.carousel");
+                });
+    
+                $("#next-slide").click(function () {
+                    owl.trigger("next.owl.carousel");
+                });
+    
+                console.log("✅ Carousel initialisé avec succès !");
+            } else {
+                console.log("❌ Toujours aucun élément trouvé !");
             }
-        });
-    
-        // Boutons de navigation personnalisés
-        $("#prev-slide").click(function () {
-            owl.trigger("prev.owl.carousel");
-        });
-    
-        $("#next-slide").click(function () {
-            owl.trigger("next.owl.carousel");
-        });
+        }, 2000); // Attente supplémentaire
     });
+    
     
 
 
     // carousel produit
-    $(document).ready(function () {
+    setTimeout(function () {
         $(".carousel-item-4").owlCarousel({
             autoplay: true,
             smartSpeed: 1000,
@@ -228,27 +219,31 @@
                 '<i class="fa fa-angle-right" aria-hidden="true"></i>'
             ],
             responsive: {
-                0: {
-                    items: 1
-                },
-                576: {
-                    items: 1
-                },
-                768: {
-                    items: 2
-                },
-                992: {
-                    items: 3
-                },
-                1200: {
-                    items: 4
-                }
+                0: { items: 1 },
+                576: { items: 1 },
+                768: { items: 2 },
+                992: { items: 3 },
+                1200: { items: 4 }
             }
         });
+    }, 500);
+    
+
+    $(document).ready(function () {
+        console.log($(".image-carousel").length > 0 ? "Carousel détecté ✅" : "Carousel introuvable ❌");
     });
-
-
-
+    
+    // console.log($(".image-carousel").hasClass("owl-loaded") ? "Owl Carousel chargé ✅" : "Owl Carousel non chargé ❌");
+    // console.log(typeof jQuery !== "undefined" ? "✅ jQuery est chargé" : "❌ jQuery n'est PAS chargé");
+    // console.log(typeof $.fn.owlCarousel !== "undefined" ? "✅ Owl Carousel est chargé" : "❌ Owl Carousel n'est PAS chargé");
+    // console.log($("script[src*='owl.carousel']").length > 0 ? "✅ Fichier JS Owl Carousel trouvé" : "❌ Fichier JS Owl Carousel NON trouvé");
+    // console.log(typeof $.fn.owlCarousel !== "undefined" ? "✅ Owl Carousel est bien initialisé" : "❌ Owl Carousel N'EST PAS initialisé !");
+    // console.log("Nombre d'éléments dans le carousel : " + $(".image-carousel .item").length);
+    // console.log("Nombre d'éléments dans le carousel :", $(".image-carousel .item").length);
+    // setTimeout(function () {
+    //     console.log("Nombre d'éléments après délai :", $(".image-carousel .item").length);
+    // }, 3000);
+    
 
    
     document.addEventListener("DOMContentLoaded", function () {

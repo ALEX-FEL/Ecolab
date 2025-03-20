@@ -5,7 +5,7 @@ function Header() {
     return(
 
             <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="index.html" className="navbar-brand p-0">
+                <a href="/" className="navbar-brand p-0">
                 
                     <img src="assets/img/Ego.png" alt="Logo"/>
                 </a>
