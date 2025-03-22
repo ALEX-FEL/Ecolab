@@ -32,7 +32,7 @@ function Visite_virtuelle(){
 
                     <div className="row g-5 align-items-center">
                         <div className="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
-                            <img className="img-fluid" src="assets/img/imgeco/1.png"/>
+                            <img className="img-fluid" src="assets/img/imgeco/10780237_19198194.jpg"/>
                         </div>
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <h2 class="concept-title mb-15 home-title home-section-title">L'outil  N° 1 Pour Les Visites Virtuelles</h2>
@@ -116,7 +116,7 @@ function Visite_virtuelle(){
                     
                     
                                                                                     <div class="text-center">
-                                                        <a href="https://www.Ecolab.com/fr/explorer?category=all" >
+                                                        <a href="#?category=all" >
                                                         <button class="btn btn-outline-primary btn-section">
                                                             Explorez &amp; recherchez
                                                         </button>
@@ -180,7 +180,7 @@ function Visite_virtuelle(){
                     
                                                                 <div class="col-12 col-md-6 col-lg-5 text-center my-auto mx-auto ">
                                                 <div class="col-12">
-                                                    <img class="lazyload br-10 w-100" alt="Comment Partager Ou Intégrer Des Visites Virtuelles" src="assets/img/imgeco/𝐋𝐨_𝐌𝐞𝐣𝐨𝐫_𝐝𝐞_𝐀𝐫𝐜𝐚𝐧𝐨.jpeg"/>
+                                                    <img class="lazyload br-10 w-100" alt="Comment Partager Ou Intégrer Des Visites Virtuelles" src="assets/img/imgeco/Wavy_Bus-34_Single-08.png"/>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-7 " id="s-content" >
@@ -224,7 +224,7 @@ function Visite_virtuelle(){
                     
                                                                 <div class="col-12 col-md-6 col-lg-5 text-center my-auto mx-auto  order-1 order-sm-1 order-md-2 order-last ">
                                                 <div class="col-12">
-                                                    <img class="lazyload br-10 w-100" alt="Boostez Votre Business" src="assets/img/imgeco/TIKI Mascot Re-branding.jpeg"/>
+                                                    <img class="lazyload br-10 w-100" alt="Boostez Votre Business" src="assets/img/imgeco/2331531.png"/>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-7  order-2 order-sm-2 order-md-1 " id="s-content" >
@@ -297,7 +297,7 @@ function Visite_virtuelle(){
                     
                                                                 <div class="col-12 col-md-6 col-lg-5 text-center my-auto mx-auto ">
                                                 <div class="col-12">
-                                                    <img class="lazyload br-10 w-100" alt="Qu’est-ce Qu’une Visite Virtuelle ?" src="assets/img/imgeco/F5nuc6i9.jpeg"/>
+                                                    <img class="lazyload br-10 w-100" alt="Qu’est-ce Qu’une Visite Virtuelle ?" src="assets/img/imgeco/5274708.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-7 " id="s-content" >
@@ -337,9 +337,9 @@ function Visite_virtuelle(){
                                                     
                                                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 br-5">
                                                         <div class="card">
-                                                        <a href="https://www.Ecolab.com/fr/explorer"><img src="assets/img/imgeco/1.png" class="card-img-top cursor-pointer lazyload" alt="Professionnels de l&#039;immobilier"/></a>
+                                                        <a href="#"><img src="assets/img/hero.png" class="card-img-top cursor-pointer lazyload" alt="Professionnels de l&#039;immobilier"/></a>
                                                         <div class="card-body">
-                                                            <a href="https://www.Ecolab.com/fr/explorer">
+                                                            <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Professionnels de l&#039;immobilier</h3>
                                                             </a>
                                                             <span class="card-text fz-16 fw-500" data-mh="desc">Des nos jours, la visite virtuelle est indispensable pour louer ou vendre un bien. Cela vous fera gagner du temps, de la s&eacute;curit&eacute; et de l&#39;argent. Bien entendu, la visite virtuelle augemente le nombre d&#39;acheteurs potentiels. Tr&egrave;s pris&eacute; des agents immobilier et mandataires.</span>
@@ -350,9 +350,9 @@ function Visite_virtuelle(){
                                                     
                                                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 br-5">
                                                         <div class="card">
-                                                        <a href="https://www.Ecolab.com/fr/explorer"><img src="assets/img/imgeco/section_1610555375-354707498.png" class="card-img-top cursor-pointer lazyload" alt="Photographes"/></a>
+                                                        <a href="#"><img src="assets/img/imgeco/blockimage_1610794720-265510739.png" class="card-img-top cursor-pointer lazyload" alt="Photographes"/></a>
                                                         <div class="card-body">
-                                                            <a href="https://www.Ecolab.com/fr/explorer">
+                                                            <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Photographes</h3>
                                                             </a>
                                                             <span class="card-text fz-16 fw-500" data-mh="desc">Cr&eacute;ez rapidement et facilement des visites virtuelles. Faites-vous recruter en ligne et&nbsp;gagnez en visibilit&eacute;. Montrez au monde votre talent!</span>
@@ -363,9 +363,9 @@ function Visite_virtuelle(){
                                                     
                                                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 br-5">
                                                         <div class="card">
-                                                        <a href="https://www.Ecolab.com/fr/explorer"><img src="https://assets.Ecolab.com/uploads/blockimage/blockimage_1610795223-445582474.png" class="card-img-top cursor-pointer lazyload" alt="Entreprises de construction"/></a>
+                                                        <a href="#"><img src="assets/img/imgeco/illustration-concept-architecte-construction_114360-9700.jpg" class="card-img-top cursor-pointer lazyload" alt="Entreprises de construction"/></a>
                                                         <div class="card-body">
-                                                            <a href="https://www.Ecolab.com/fr/explorer">
+                                                            <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Entreprises de construction</h3>
                                                             </a>
                                                             <span class="card-text fz-16 fw-500" data-mh="desc">Cr&eacute;ez des visites virtuelles &agrave; toutes les &eacute;tapes de l&#39;avancement de vos travaux : Avant, Pendant, Apr&egrave;s. Enrichissez votre portofolio et attirez de nouveaux clients et investisseurs. Montrez votre travail incroyable et faites la diff&eacute;rence avec vos concurrents.</span>
@@ -376,9 +376,9 @@ function Visite_virtuelle(){
                                                     
                                                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 br-5">
                                                         <div class="card">
-                                                        <a href="https://www.Ecolab.com/fr/explorer"><img src="https://assets.Ecolab.com/uploads/blockimage/blockimage_1610795223-1010274549.png" class="card-img-top cursor-pointer lazyload" alt="Dronistes"/></a>
+                                                        <a href="#"><img src="assets/img/imgeco/personnes-agees-dessinees-plat-aide-illustration-technologie_23-2148829463.jpg" class="card-img-top cursor-pointer lazyload" alt="Dronistes"/></a>
                                                         <div class="card-body">
-                                                            <a href="https://www.Ecolab.com/fr/explorer">
+                                                            <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Dronistes</h3>
                                                             </a>
                                                             <span class="card-text fz-16 fw-500" data-mh="desc">Enfin un endroit pour montrer vos superbes vues a&eacute;riennes dans des visites virtuelles. Et pourquoi ne pas vendre vos services en ligne ?</span>
@@ -389,9 +389,9 @@ function Visite_virtuelle(){
                                                     
                                                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 br-5">
                                                         <div class="card">
-                                                        <a href="https://www.Ecolab.com/fr/explorer"><img src="https://assets.Ecolab.com/uploads/blockimage/blockimage_1610795223-2371153.png" class="card-img-top cursor-pointer lazyload" alt="Architectes et designers 3D"/></a>
+                                                        <a href="#"><img src="assets/img/imgeco/blockimage_1610794720-1809967517.png" class="card-img-top cursor-pointer lazyload" alt="Architectes et designers 3D"/></a>
                                                         <div class="card-body">
-                                                            <a href="https://www.Ecolab.com/fr/explorer">
+                                                            <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Architectes et designers 3D</h3>
                                                             </a>
                                                             <span class="card-text fz-16 fw-500" data-mh="desc">Vous r&eacute;alisez des vues 3D, du Home Staging 3D, ou des plans de sol ? Montrez&nbsp;votre travail sur Ecolab et faites-vous mandater en&nbsp;ligne pour votre talent.</span>
@@ -402,9 +402,9 @@ function Visite_virtuelle(){
                                                     
                                                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 br-5">
                                                         <div class="card">
-                                                        <a href="https://www.Ecolab.com/fr/explorer"><img src="https://assets.Ecolab.com/uploads/blockimage/blockimage_1610795224-1129413895.png" class="card-img-top cursor-pointer lazyload" alt="Entrepreneurs, écoles et entreprises"/></a>
+                                                        <a href="#"><img src="assets/img/imgeco/occupe-illustration-professionnelle_74855-2355.jpg" class="card-img-top cursor-pointer lazyload" alt="Entrepreneurs, écoles et entreprises"/></a>
                                                         <div class="card-body">
-                                                            <a href="https://www.Ecolab.com/fr/explorer">
+                                                            <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Entrepreneurs, écoles et entreprises</h3>
                                                             </a>
                                                             <span class="card-text fz-16 fw-500" data-mh="desc">De nos jours et plus que jamais, toutes les entreprises ont besoin&nbsp;d&#39;&ecirc;tre en ligne. N&#39;attendez plus et cr&eacute;ez des visites virtuelles&nbsp;pour de nombreux domaines tels que:&nbsp;Les boutiques, &eacute;coles, bars, restaurants, etc.</span>
@@ -415,9 +415,9 @@ function Visite_virtuelle(){
                                                     
                                                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 br-5">
                                                         <div class="card">
-                                                        <a href="https://www.Ecolab.com/fr/explorer"><img src="https://assets.Ecolab.com/uploads/blockimage/blockimage_1610795224-1429789100.png" class="card-img-top cursor-pointer lazyload" alt="Tourisme, patrimoine et villes"/></a>
+                                                        <a href="#"><img src="assets/img/imgeco/enseignant-travailleur-cote-du-globe-goupille-localisation-homme-gai-choisissant-illustration-vectorielle-plane-destination-concept-education-geographie-voyage-vacances-pour-banniere-page-web-destination_74855-25314.jpg" class="card-img-top cursor-pointer lazyload" alt="Tourisme, patrimoine et villes"/></a>
                                                         <div class="card-body">
-                                                            <a href="https://www.Ecolab.com/fr/explorer">
+                                                            <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Tourisme, patrimoine et villes</h3>
                                                             </a>
                                                             <span class="card-text fz-16 fw-500" data-mh="desc">Votre r&eacute;gion, sa ville et ses monuments m&eacute;ritent d&#39;&ecirc;tre d&eacute;couverts par le monde entier ! Montrez-les avec une immersion compl&egrave;te</span>
@@ -428,9 +428,9 @@ function Visite_virtuelle(){
                                                     
                                                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 br-5">
                                                         <div class="card">
-                                                        <a href="https://www.Ecolab.com/fr/explorer"><img src="https://assets.Ecolab.com/uploads/blockimage/blockimage_1610795224-546616023.png" class="card-img-top cursor-pointer lazyload" alt="Artistes, influenceurs ou particuliers"/></a>
+                                                        <a href="#"><img src="assets/img/imgeco/gens-mon-passe-temps-gens-faire-activites-nager-peindre-jouer-jeux-video-illustration_24908-60582.jpg" class="card-img-top cursor-pointer lazyload" alt="Artistes, influenceurs ou particuliers"/></a>
                                                         <div class="card-body">
-                                                            <a href="https://www.Ecolab.com/fr/explorer">
+                                                            <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Artistes, influenceurs ou particuliers</h3>
                                                             </a>
                                                             <span class="card-text fz-16 fw-500" data-mh="desc">Les visites virtuelles ne sont pas r&eacute;serv&eacute;es qu&#39;aux professionnels et sont pour tous:&nbsp;De l&#39;amateur au passionn&eacute;.
@@ -458,7 +458,7 @@ function Visite_virtuelle(){
                     
                                                                 <div class="col-12 col-md-6 col-lg-5 text-center my-auto mx-auto  order-1 order-sm-1 order-md-2 order-last ">
                                                 <div class="col-12">
-                                                    <img class="lazyload br-10 w-100" alt="Ecolab Pro : Pour Aller Plus Loin" src="assets/img/imgeco/section_1610555375-354707498.png"/>
+                                                    <img class="lazyload br-10 w-100" alt="Ecolab Pro : Pour Aller Plus Loin" src="assets/img/imgeco/10905678.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-7  order-2 order-sm-2 order-md-1 " id="s-content" >
