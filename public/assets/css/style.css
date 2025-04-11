@@ -630,14 +630,14 @@
      width: 100%;            /* Toujours occuper toute la largeur */
      height: auto;          /* Hauteur fixe pour uniformité */
      object-fit: cover;      /* Recadrer le contenu pour remplir le conteneur */
-     cursor: pointer;        /* Indiquer que c'est cliquable */
+     /*cursor: pointer;         Indiquer que c'est cliquable */
    }
 
    /* Styliser les légendes */
    .carousel-caption {
      background-color: rgba(0, 0, 0, 0.6); /* Fond semi-transparent */
-     padding: 10px;
-     border-radius: 8px;
+     padding: 40px;
+     border-radius: 50px;
    }
 
    .carousel-caption h5 {
@@ -652,6 +652,20 @@
    }
 
 
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Ombre sur l'image */
+  z-index: 1;
+}
+
+.carousel-item img {
+  position: relative;
+  z-index: 0;
+}
 
 
 
@@ -972,5 +986,9 @@
     align-items: center;
     width: 100%;
     height: 100%;
+}
+
+.g_5{
+    padding-top: 6rem;
 }
 

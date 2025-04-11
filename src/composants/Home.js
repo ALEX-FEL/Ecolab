@@ -45,11 +45,11 @@ function Home() {
     <div className="container-xxl bg-white p-0">
         {/* <!-- Spinner tart -->
         <div id="spinner" className="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div className="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span className="sr-only">Loading...</span>
+            <div className="spinner-border text-primary" style={{width: '3rem; height: 3rem;'}} role="status">
+                <span className="sr-only">Ecolab Loading...</span>
             </div>
-        </div>
-        <!-- Spinner End -->!:;,//.? */}
+        </div> */}
+        {/*<!-- Spinner End -->*/}
 
 
         {/* <!-- Navbar & Hero Start --> */}
@@ -361,9 +361,6 @@ function Home() {
 
 
 
-
-
-
         {/* <!-- Team Start --> */}
         <div className="container-xxl py-6">
             <div className="container">
@@ -372,17 +369,17 @@ function Home() {
                     <h2 className="mb-5">Nos Partenaires</h2>
                 </div>
                 <div className="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div className="testimonial-item rounded p-4">
-                        <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        
-                        <div className="d-flex align-items-center">
-                            <img className="img-fluid flex-shrink-0 rounded-circle" src="assets/img/testimonial-1.jpg"/>
-                            <div className="ps-3">
-                                <h6 className="mb-1">Client alex</h6>
-                                <small>Profession</small>
-                            </div>
-                            <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                <div className="testimonial-item rounded p-4">
+                    <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                    
+                    <div className="d-flex align-items-center">
+                        <img className="img-fluid flex-shrink-0 rounded-circle" src="assets/img/testimonial-1.jpg"/>
+                        <div className="ps-3">
+                            <h6 className="mb-1">Marie Dupont</h6>
+                            <small>Développeuse Web</small>
                         </div>
+                    </div>
+                    <p>Un service exceptionnel, toujours à l'écoute de nos besoins. Je recommande vivement !</p>
                     </div>
                     <div className="testimonial-item rounded p-4">
                         <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
@@ -390,11 +387,11 @@ function Home() {
                         <div className="d-flex align-items-center">
                             <img className="img-fluid flex-shrink-0 rounded-circle" src="assets/img/testimonial-2.jpg"/>
                             <div className="ps-3">
-                                <h6 className="mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 className="mb-1">Jean Martin</h6>
+                                <small>Consultant Marketing</small>
                             </div>
                         </div>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>Une collaboration fructueuse, avec des résultats au-delà de nos attentes.</p>
                     </div>
                     <div className="testimonial-item rounded p-4">
                         <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
@@ -402,11 +399,11 @@ function Home() {
                         <div className="d-flex align-items-center">
                             <img className="img-fluid flex-shrink-0 rounded-circle" src="assets/img/testimonial-3.jpg"/>
                             <div className="ps-3">
-                                <h6 className="mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 className="mb-1">Sophie Leroy</h6>
+                                <small>Designer Graphique</small>
                             </div>
                         </div>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>Des designs innovants et un service client exceptionnel. Un vrai plaisir de travailler ensemble !</p>
                     </div>
                     <div className="testimonial-item rounded p-4">
                         <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
@@ -414,20 +411,17 @@ function Home() {
                         <div className="d-flex align-items-center">
                             <img className="img-fluid flex-shrink-0 rounded-circle" src="assets/img/testimonial-4.jpg"/>
                             <div className="ps-3">
-                                <h6 className="mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 className="mb-1">Lucie Bernard</h6>
+                                <small>Chef de Projet</small>
                             </div>
-                            <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
                         </div>
+                        <p>Une équipe dynamique et réactive, toujours prête à relever de nouveaux défis.</p>
                     </div>
                 </div>
             </div>
         </div>
         {/* <!-- Team End --> */}
 
-
-
-        
         <Footer/>
     </div>
     )

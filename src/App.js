@@ -5,9 +5,9 @@ import Abonement from "./composants/abonement";
 import Contact from "./composants/contact";
 import Service from "./composants/service";
 import About from "./composants/about";
-import Detail_services from "./composants/services/detali";
 import Detail_abonmt from "./composants/abonnements/detail";
 import Visite_virtuelle from "./composants/services/visite_virtuelle";
+import EcoVirtual_Lab from "./composants/services/EcoVirtual_Lab";
 
 // Import des composantscontact
 
@@ -21,7 +21,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} /> 
-          <Route path="/ecoVirtual" element={<Detail_services />} /> 
+          <Route path="/ecoVirtual_lab" element={<EcoVirtual_Lab />} /> 
           <Route path="/abonement" element={<Abonement />} />
           <Route path="/id_abonement" element={<Detail_abonmt />} />
           <Route path="/visite_virtuelle" element={<Visite_virtuelle />} />
