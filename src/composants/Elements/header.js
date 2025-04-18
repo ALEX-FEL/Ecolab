@@ -14,8 +14,8 @@ function Header() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav ms-auto py-0">
-                        <a href="/" className="nav-item nav-link">Accueil</a>
-                        <a href="/about" className="nav-item nav-link">À propos</a>
+                        <a href="/" className="nav-item nav-link active">Accueil</a>
+                        <a href="/about" className="nav-item nav-link ">À propos</a>
                         <div className="nav-item dropdown">
                             <a href="/service" className="nav-item nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
                             <div className="dropdown-menu m-0">

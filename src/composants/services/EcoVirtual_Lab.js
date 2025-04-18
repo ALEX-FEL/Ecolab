@@ -351,7 +351,15 @@ function EcoVirtual_Lab(){
                                                 <h2 class="concept-title mb-15 home-title home-section-title" >Qu’est-ce Qu’une Visite Virtuelle ?</h2>
                                                 <div class="mt-2 fz-18 fw-500 concept-text">
                                                     <p>
-                                                        <p>Les visites virtuelles, &eacute;galement appel&eacute;es visites immersives, sont un ensemble de photos reli&eacute;es entre elles afin que le&nbsp;visiteur puisse profiter pleinement de l&#39;exp&eacute;rience &laquo; Immersive &raquo;. Beaucoup de personnes consid&egrave;rent les visites virtuelles comme quelque chose de long et co&ucirc;teux &agrave; cr&eacute;er, Ecolab prouve le contraire. Notre objectif est de rendre les visites virtuelles accessibles &agrave; tous et dans le monde entier. Toutes les visites Ecolab peuvent &ecirc;tre visualis&eacute;es sur tous types d&rsquo;appareils en un simple clic: MAC, PC, Smartphone (iOs et Android), Tablette et masque de r&eacute;alit&eacute; virtuelle (VR).</p>
+                                                        <p>L'expression <strong>réalité virtuelle</strong> désigne une mise en œuvre d'une réalité artificielle et actuel par des
+                                                            instruments multimédiatiques et immersifs. Cette technologie permet de créer des environnements
+                                                            immersifs dans lesquels l'utilisateur a l'impression de se retrouver physiquement présent.
+                                                            Elle <strong >simule</strong> ainsi la présence physique d'un utilisateur dans un environnement artificiellement généré
+                                                            par des logiciels en sollicitant plusieurs sens, comme la vue et l'ouïe. Cette réalité imitée, inventée,
+                                                            représente un environnement avec lequel l'utilisateur peut interagir. Elle est également une
+                                                            technologie multiplateforme et pouvant se déployer sur des Smartphones, Ordinateur et site
+                                                            internet.
+                                                        </p>
                                                     </p>
                                                                                     <a href="fr.html#"  data-toggle="modal" data-target="#signupModal"  >
                                                         <button class="btn btn-outline-primary btn-section">
@@ -389,7 +397,9 @@ function EcoVirtual_Lab(){
                                                             <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Professionnels de l&#039;immobilier</h3>
                                                             </a>
-                                                            <span class="card-text fz-16 fw-500" data-mh="desc">Des nos jours, la visite virtuelle est indispensable pour louer ou vendre un bien. Cela vous fera gagner du temps, de la s&eacute;curit&eacute; et de l&#39;argent. Bien entendu, la visite virtuelle augemente le nombre d&#39;acheteurs potentiels. Tr&egrave;s pris&eacute; des agents immobilier et mandataires.</span>
+                                                            <span class="card-text fz-16 fw-500" data-mh="desc">De nos jours, la réalité virtuelle est indispensable pour louer ou vendre un bien à une personne se
+                                                                trouvant à l‘autre bout du monde. Cela vous fera gagner du temps, de la sécurité et de l'argent. Bien
+                                                                entendu, la réalité virtuelle augmente le nombre d'acheteurs potentiels.</span>
                                                             
                                                         </div>
                                                         </div>
@@ -402,7 +412,8 @@ function EcoVirtual_Lab(){
                                                             <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Photographes</h3>
                                                             </a>
-                                                            <span class="card-text fz-16 fw-500" data-mh="desc">Cr&eacute;ez rapidement et facilement des visites virtuelles. Faites-vous recruter en ligne et&nbsp;gagnez en visibilit&eacute;. Montrez au monde votre talent!</span>
+                                                            <span class="card-text fz-16 fw-500" data-mh="desc">Créez rapidement et facilement des réalités virtuelles de vos différentes galléries . Faites-vous
+                                                            recruter en ligne et gagnez en visibilité. Montrez au monde votre talent!</span>
                                                             
                                                         </div>
                                                         </div>
@@ -415,7 +426,9 @@ function EcoVirtual_Lab(){
                                                             <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Entreprises de construction</h3>
                                                             </a>
-                                                            <span class="card-text fz-16 fw-500" data-mh="desc">Cr&eacute;ez des visites virtuelles &agrave; toutes les &eacute;tapes de l&#39;avancement de vos travaux : Avant, Pendant, Apr&egrave;s. Enrichissez votre portofolio et attirez de nouveaux clients et investisseurs. Montrez votre travail incroyable et faites la diff&eacute;rence avec vos concurrents.</span>
+                                                            <span class="card-text fz-16 fw-500" data-mh="desc">Créez via la réalité virtuelle toutes les étapes de l'avancement de vos travaux : Avant, Pendant,
+                                                               Après. Enrichissez votre portofolio et attirez de nouveaux clients et investisseurs. Montrez votre
+                                                                                    travail incroyable partout dans le monde et faites la différence avec vos concurrents.</span>
                                                             
                                                         </div>
                                                         </div>
@@ -441,7 +454,8 @@ function EcoVirtual_Lab(){
                                                             <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Architectes et designers 3D</h3>
                                                             </a>
-                                                            <span class="card-text fz-16 fw-500" data-mh="desc">Vous r&eacute;alisez des vues 3D, du Home Staging 3D, ou des plans de sol ? Montrez&nbsp;votre travail sur Ecolab et faites-vous mandater en&nbsp;ligne pour votre talent.</span>
+                                                            <span class="card-text fz-16 fw-500" data-mh="desc">Vous réalisez des vues 3D, du Home Staging 3D, ou des plans de sol ? Montrez votre travail sur Ecolab
+                                                            et faites-vous mandater en ligne pour votre talent.</span>
                                                             
                                                         </div>
                                                         </div>
@@ -454,7 +468,9 @@ function EcoVirtual_Lab(){
                                                             <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Entrepreneurs, écoles et entreprises</h3>
                                                             </a>
-                                                            <span class="card-text fz-16 fw-500" data-mh="desc">De nos jours et plus que jamais, toutes les entreprises ont besoin&nbsp;d&#39;&ecirc;tre en ligne. N&#39;attendez plus et cr&eacute;ez des visites virtuelles&nbsp;pour de nombreux domaines tels que:&nbsp;Les boutiques, &eacute;coles, bars, restaurants, etc.</span>
+                                                            <span class="card-text fz-16 fw-500" data-mh="desc">De nos jours et plus que jamais, toutes les entreprises ont des partenaires à travers le monde
+                                                                entier. N'attendez plus et utilisez nos services afin de faire vos différents meetings en réalité virtuelle
+                                                                et également la présentation de vos différents travaux</span>
                                                             
                                                         </div>
                                                         </div>
@@ -467,7 +483,8 @@ function EcoVirtual_Lab(){
                                                             <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Tourisme, patrimoine et villes</h3>
                                                             </a>
-                                                            <span class="card-text fz-16 fw-500" data-mh="desc">Votre r&eacute;gion, sa ville et ses monuments m&eacute;ritent d&#39;&ecirc;tre d&eacute;couverts par le monde entier ! Montrez-les avec une immersion compl&egrave;te</span>
+                                                            <span class="card-text fz-16 fw-500" data-mh="desc">Découvrez des zones inconnus, des sites touristiques distant et faites connaitre également vos
+                                                            différentes présentations.</span>
                                                             
                                                         </div>
                                                         </div>
@@ -480,8 +497,8 @@ function EcoVirtual_Lab(){
                                                             <a href="#">
                                                                 <h3 data-mh="title" class="match card-title home-subtitle block-subtitle cursor-pointer">Artistes, influenceurs ou particuliers</h3>
                                                             </a>
-                                                            <span class="card-text fz-16 fw-500" data-mh="desc">Les visites virtuelles ne sont pas r&eacute;serv&eacute;es qu&#39;aux professionnels et sont pour tous:&nbsp;De l&#39;amateur au passionn&eacute;.
-                    L&rsquo;art et les souvenirs se doivent d&#39;&ecirc;tre partag&eacute;s afin de vous faire revivre ces moments.</span>
+                                                            <span class="card-text fz-16 fw-500" data-mh="desc">La réalité virtuelle n’est pas réservée qu'aux professionnels et sont pour tous: De l'amateur au
+                                                            passionné. L’art et les souvenirs se doivent d'être partagés afin de vous faire revivre ces moments.</span>
                                                             
                                                         </div>
                                                         </div>
