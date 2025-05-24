@@ -102,47 +102,6 @@ function EcoVirtual_Lab(){
                     <div className="row g-5 g_5 align-items-center">
                         
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <h2 class="concept-title mb-15 home-title home-section-title">Laboratoire scientifique : Chimie 
-                        </h2>
-                            <div class="mt-2 fz-18 fw-500 concept-text">
-                                <p>
-                                    </p><p><strong>Créez</strong>, <strong>éditez</strong> et <strong>partagez</strong> vos <strong>Laboratoires scientifiques</strong>.</p>
-                                    <p>Découvrez nos laboratoires scientifiques immersifs. Un environnement d'étude et d'apprentissage en réalité virtuelle. Implémenter principalement pour les établissements scolaires, les écoles de formation, les universités et même les autodidactes. Dans cet environnement, vous avez la possibilité de manipuler les matériaux de laboratoire, faire des expériences et suivre leurs résultats, travailler en groupe avec vos commandes de classe, collègues, amis etc ..... Et Il vous offre la possibilité de faire bien plus encore .........</p>
-                                <p>
-                                    
-                                </p>
-                                                                  <a href="https://www.Ecolab.com/fr#" data-toggle="modal" data-target="#signupModal">
-                                    <button class="btn btn-outline-primary btn-section">
-                                      Allons-y - C'est gratuit!
-                                    </button>
-                                  </a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
-                        <iframe 
-                                                                            className="video-medium" 
-                                                                            src="https://www.youtube.com/embed/DVTuJAHfLBc" 
-                                                                            title="Vidéo YouTube" 
-                                                                            frameborder="0" 
-                                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                                                            allowfullscreen>
-                          </iframe>
-                        </div>
-                    </div>
-
-                    <div className="row g-5 g_5 align-items-center">
-                        <div class="w-100 concept row section-area-- dop" >
-                            <div className="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
-                            <iframe 
-                                                                                className="video-medium" 
-                                                                                src="https://www.youtube.com/embed/DVTuJAHfLBc" 
-                                                                                title="Vidéo YouTube" 
-                                                                                frameborder="0" 
-                                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                                                                allowfullscreen>
-                            </iframe>
-                            </div>
-                            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                             <h2 class="concept-title mb-15 home-title home-section-title">Découvrez nos différents laboratoires scientifiques 
                             </h2>
                                 <div class="mt-2 fz-18 fw-500 concept-text">
@@ -160,6 +119,47 @@ function EcoVirtual_Lab(){
                                     </a>
                                 </div>
                             </div>
+                        <div className="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
+                        <iframe 
+                                                                            className="video-medium" 
+                                                                            src="https://www.youtube.com/embed/DVTuJAHfLBc" 
+                                                                            title="Vidéo YouTube" 
+                                                                            frameborder="0" 
+                                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                                                            allowfullscreen>
+                          </iframe>
+                        </div>
+                    </div>
+
+                    <div className="row g-5 g_5 align-items-center">
+                        <div class="w-100 concept row section-area-- dop" >
+                            <div className="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
+                            <iframe 
+                                                                                className="video-medium" 
+                                                                                src="https://www.youtube.com/watch?v=iAKv855rbZk&t" 
+                                                                                title="Vidéo YouTube" 
+                                                                                frameborder="0" 
+                                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                                                                allowfullscreen>
+                            </iframe>
+                            </div>
+                            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h2 class="concept-title mb-15 home-title home-section-title">Laboratoire scientifique : Chimie 
+                        </h2>
+                            <div class="mt-2 fz-18 fw-500 concept-text">
+                                <p>
+                                    </p><p><strong>Créez</strong>, <strong>éditez</strong> et <strong>partagez</strong> vos <strong>Laboratoires scientifiques</strong>.</p>
+                                    <p>Découvrez nos laboratoires scientifiques immersifs. Un environnement d'étude et d'apprentissage en réalité virtuelle. Implémenter principalement pour les établissements scolaires, les écoles de formation, les universités et même les autodidactes. Dans cet environnement, vous avez la possibilité de manipuler les matériaux de laboratoire, faire des expériences et suivre leurs résultats, travailler en groupe avec vos commandes de classe, collègues, amis etc ..... Et Il vous offre la possibilité de faire bien plus encore .........</p>
+                                <p>
+                                    
+                                </p>
+                                                                  <a href="https://www.Ecolab.com/fr#" data-toggle="modal" data-target="#signupModal">
+                                    <button class="btn btn-outline-primary btn-section">
+                                      Allons-y - C'est gratuit!
+                                    </button>
+                                  </a>
+                            </div>
+                        </div>
                         </div>
                     </div>
 
@@ -184,7 +184,7 @@ function EcoVirtual_Lab(){
                         <div className="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
                         <iframe 
                                                                             className="video-medium" 
-                                                                            src="https://www.youtube.com/embed/DVTuJAHfLBc" 
+                                                                            src="https://www.youtube.com/watch?v=_rQFsQcxpgY" 
                                                                             title="Vidéo YouTube" 
                                                                             frameborder="0" 
                                                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
