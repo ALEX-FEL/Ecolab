@@ -7,7 +7,9 @@ function About() {
     return(
     <div className="container-xxl bg-white p-0">
 
-        <Header/>
+        <div className="container-xxl position-relative p-0">
+            <Header/>
+        </div>
         {/* <!-- About Start --> */}
         <div className="container-xxl py-6">
             <div className="container">
@@ -60,7 +62,7 @@ function About() {
                     <div className="container-fluid pt-5 mb-3">
                         <div className="container">
                             <div className="section-title">
-                                <h4 className="m-0 text-uppercase font-weight-bold">Nos services</h4>
+                                <h4 className="m-0 text-uppercase font-weight-bold"><a href="/service" className="serv">Nos services</a></h4>
                             </div>
                             <div className="owl-carousel news-carousel carousel-item-4 position-relative">
                                 {/* <!-- Service 1 --> */}
@@ -69,7 +71,7 @@ function About() {
                                     <div className="overlay d-flex flex-column justify-content-center  p-3">
                                         <h5 className="text-white font-weight-bold">Visite Virtuelle 237</h5>
                                         <p className="text-white">Explorez des boutiques en ligne via des visites virtuelles et commandez vos produits ou services facilement.</p>
-                                        <a className="btn btn-primary mt-2 btns" href="#">En savoir plus</a>
+                                        <a className="btn btn-primary mt-2 btns" href="/visite_virtuelle">En savoir plus</a>
                                     </div>
                                 </div>
                                 {/* <!-- Service 2 --> */}
