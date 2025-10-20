@@ -7,14 +7,14 @@ function Footer() {
          <div className="contact-container">
             {/* <!-- Numéro avec espace entre l'icône et le texte --> */}
             <div className="contact-item">
-              <i className="fas fa-phone"></i> +33 6 12 34 56 78
+              <i className="fas fa-phone"></i> +237 6 54 92 93 16
             </div>
             {/* <!-- Barre verticale --> */}
             <div className="divider"></div>
             {/* <!-- E-mail avec espace entre l'icône et le texte --> */}
             <div className="contact-item">
               <i className="fas fa-envelope"></i> 
-              <a href="mailto:example@mail.com">example@mail.com</a>
+              <a href="mailto:agaristide10@gmail.com">infos@ecolab-hightech.com</a>
             </div>
         </div>
 
@@ -26,11 +26,11 @@ function Footer() {
                         <h5 className="text-white mb-4">ECOLAB-HIGTH</h5>
                         <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu</p>
                         <div className="d-flex pt-2">
-                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></a>
-                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-facebook-f"></i></a>
-                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-youtube"></i></a>
-                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-instagram"></i></a>
-                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-linkedin-in"></i></a>
+                            <a className="btn btn-outline-light btn-social" href="https://wa.me/237693524120"><i className="fab fa-whatsapp"></i></a>
+                            <a className="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=100083073405588"><i className="fab fa-facebook-f"></i></a>
+                            {/* <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-youtube"></i></a> */}
+                            <a className="btn btn-outline-light btn-social" href="https://telegram.me/+237693524120"><i className="fab fa-telegram"></i></a>
+                            <a className="btn btn-outline-light btn-social" href="https://www.linkedin.com/posts/ecolab-high-tech_virtuallab-sdg4qualityeducation-activity-7276235837661429760-x6C-?utm_source=share&utm_medium=member_android&rcm=ACoAADc0Nl8BGqnRu9WsNh8AFD4-amgF4fPtwus"><i className="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-3">
